@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: greetingapp-backend
-          image: afakharany/greetingapp-backend:1.0
+          image: afakharany/greetingapp-backend:2.0
           ports:
             - containerPort: 80
           resources:
