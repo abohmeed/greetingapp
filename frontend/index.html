@@ -45,7 +45,7 @@
     <script>
         function fetchGreeting() {
             const name = document.getElementById('nameInput').value;
-            const url = window.location.protocol + '//' + window.location.hostname + ':5555/api/hello';
+            const url = '/api/hello';
             const data = { name: name };
 
             if (!name) {
