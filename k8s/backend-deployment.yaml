@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: greetingapp-backend
-          image: 790250078024.dkr.ecr.eu-west-1.amazonaws.com/greetingapp-backend:2.0
+          image: 790250078024.dkr.ecr.eu-west-1.amazonaws.com/greetingapp-backend:1.0
           ports:
             - containerPort: 80
           resources:
